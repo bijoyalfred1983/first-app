@@ -19,6 +19,7 @@ class App extends Component {
     return (
       <div className="App">
           <h1 className='custom-font-color'>Welcome to Home Page</h1>
+          <img src={process.env.PUBLIC_URL + '/car.jpg'}  width='400' height='400' class="round-corner" alt="car" />
       </div>
     )
   }

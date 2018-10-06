@@ -18,8 +18,8 @@ class App extends Component {
   displayPage() {
     return (
       <div className="App">
-          <h1 className='custom-font-color'>Welcome to Home Page</h1>
-          <img src={process.env.PUBLIC_URL + '/car.jpg'}  width='400' height='400' class="round-corner" alt="car" />
+          <h1 className='custom-font-color' style={{'padding':'30px'}}>Welcome to Home Page</h1>
+          <img src={process.env.PUBLIC_URL + '/car.jpg'}  width='400' height='400' className="circle" alt="car" />
       </div>
     )
   }

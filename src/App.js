@@ -3,6 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  componentDidMount(){
+
+    setTimeout(()=>{
+      let loader = document.getElementById('intialLoader');
+      loader.style.display = "none";
+    },2000)
+
+  }
   render() {
     return (
       <div className="App">
